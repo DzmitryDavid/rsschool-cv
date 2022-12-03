@@ -35,3 +35,21 @@ I’m a beginner front-end developer. In the summer of 2022, I decided to dive i
   <li>Hexlet</li>
   <li>Helped with the fulfillment of freelance orders.</li>
 </ul>
+
+
+
+### Code Examples
+
+---
+
+```javascript
+export function draw(gameBoard) {
+  snakeBody.forEach((segment) => {
+    const snakeElement = document.createElement('div');
+    snakeElement.style.gridRowStart = segment.y;
+    snakeElement.style.gridColumnStart = segment.x;
+    snakeElement.classList.add('snake');
+    gameBoard.appendChild(snakeElement);
+  });
+}
+```
