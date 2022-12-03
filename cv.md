@@ -17,3 +17,21 @@ I’m a beginner front-end developer. In the summer of 2022, I decided to dive i
 - <a  href="https://t.me/dzimdev">Telegram</a>
 
 - <a  href="https://github.com/DzmitryDavid/DzmitryDavid">Github</a>
+
+
+
+### Experience
+
+---
+
+<h4>My portfolio on <a  href="https://dzmitrydavid.github.io/#/projects">Github</a></h4>
+
+<h5> Train JavaScript skills on: </h5>
+
+<ul>
+  <li><a  href="https://www.codewars.com/users/awesomecoding42@gmail.com">Codewars</a>.</li>
+    <li><a  href="https://www.freecodecamp.org/Dzmitr">Freecodecamp</a></li>
+  <li>Codecademy</li>
+  <li>Hexlet</li>
+  <li>Helped with the fulfillment of freelance orders.</li>
+</ul>
