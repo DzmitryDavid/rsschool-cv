@@ -53,3 +53,15 @@ export function draw(gameBoard) {
   });
 }
 ```
+
+
+
+### Education
+
+---
+
+- ##### Institute of Management and Business (Economist, Bachelor of management)
+
+- ##### Udemy courses
+
+- ##### Self-education
