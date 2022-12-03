@@ -65,3 +65,15 @@ export function draw(gameBoard) {
 - ##### Udemy courses
 
 - ##### Self-education
+
+
+
+### Languages
+
+---
+
+#### - Russian: native speaker.
+
+#### - English: A2+
+
+#### - Polish: (A1)
