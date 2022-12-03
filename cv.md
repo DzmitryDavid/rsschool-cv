@@ -1,0 +1,3 @@
+## Dzmitry Davidovich
+
+I’m a beginner front-end developer. In the summer of 2022, I decided to dive into software development. I have always dreamed of working in the field of high technology, and half a year ago I decided to change my profession, change my life and start acting. I chose the front-end for myself, since I see the most diverse tasks in this direction - continuous updating and improving tools. My goal is to become a great front-end developer and a real professional in implementing my plans and ideas. I hope RS-School will help me with it.
