@@ -4,6 +4,7 @@ I’m a beginner front-end developer. In the summer of 2022, I decided to dive i
 
 
 
+
 ### Contact Info
 
 ---
