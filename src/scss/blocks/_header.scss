@@ -1,0 +1,36 @@
+.header {
+  transition: all ease 0.5s;
+  &__nav {
+      position: absolute;
+      width: auto;
+      left: 102rem;
+      top: 5rem;
+  }
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  &__link {
+      @include fz20;
+      font-weight: 900;
+      text-decoration: none;
+      cursor: pointer;
+      color: #fff;
+      background:transparent;
+      transition: all 0.4s;
+      letter-spacing: 0.2rem;
+      line-height: 10px;
+      &:hover {
+          color: $font-color;
+          box-shadow: 0 5px 0 $font-color;
+          font-size: 2.5rem;
+      }
+  }
+  &__item {
+      margin-left: 3rem;
+      &:first-child {
+          margin-left: 0;
+      }
+  }
+}
