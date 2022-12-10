@@ -20,6 +20,9 @@
     box-shadow: 0 0 4px $subtitle-color;
   }
 }
+body {
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+}
 ul,
 li {
   list-style: none;
@@ -85,12 +88,13 @@ a {
 [data-title] {
   position: relative;
 }
-
 @import "blocks/header";
-@import "blocks/sidepanel";
-@import "blocks/burger";
-@import "blocks/about";
 @import "blocks/promo";
+@import "blocks/buttons";
+@import "blocks/sidepanel";
+@import "blocks/about";
 @import "blocks/resume";
+@import "blocks/burger";
 @import "blocks/skills";
 @import "blocks/projects";
+@import "blocks/footer";
