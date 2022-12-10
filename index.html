@@ -223,7 +223,95 @@
         </div>
       </div>
     </section>
-
+    <section class="about">
+      <div class="container">
+        <div class="about__wrapper">
+          <div class="about__photo">
+            <img src="src/img/works/i.jpg" alt="author photo">
+          </div>
+          <div class="about__description">
+            <h2 class="title about__title">More about me</h2>
+            <div id="about" class="title about__subtitle">
+              My name is Dzmitry Davidovich
+            </div>
+            <div class="about__divider"></div>
+            <p class="about__text">
+              I’m a novice frontend developer. In summer 2022 I decided to dive into software
+              development.
+              Now I’m looking for a first-place where I can start my new career path and where grow
+              professionally.
+              I clearly understand my current professional limitations and employer’s expenses for the first
+              time.
+              Therefore I’m interested in long-term relations with my further employer. Ready to discuss any
+              proposals.
+              Ready to implement your test task.
+              You can contact me on LinkedIn or in another way from social networks
+            </p>
+            <p class="about__text">
+              I have always dreamed of working in the field of high technologies, and I decided to change my profession,
+              change my life and start acting.
+              I chose the front-end for myself, as I see many diverse and interesting tasks in this direction, constant
+              updating and improvement of technologies, which contributes to growth as a developer.
+              I am open to any offers, I want to quickly dive into real development and try to apply all my acquired
+              knowledge to real projects.
+              My goal is to become an excellent front-end developer, a real professional for the implementation of my
+              plans and ideas.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="resume">
+      <div class="container">
+        <h2 id="experience" class="title resume__title resume__title ">Experience</h2>
+        <div class="title resume__subtitle">Relevant experience and more</div>
+        <div class="divider"></div>
+        <div class="resume__wrapper">
+          <div class="resume__item">
+            <div class="title resume__item-title">Education</div>
+            <h4 class="title resume__item-univer">Private Institute of Managment and Business</h4>
+            <div class="resume__item-diplom">Bachelor of management, Bachelor of economics
+            </div>
+          </div>
+          <div class="resume__item">
+            <div class="title resume__item-title">Education</div>
+            <h4 class="title resume__item-univer">Rolling Scopes School</h4>
+            <div class="resume__item-diplom">Front-End / JavaScript Developer
+              <br>
+              Self-Education(Udemy,FreecodeCamp etc.)
+            </div>
+          </div>
+          <div class="resume__item">
+            <div class="title resume__item-title-exp ">Languages</div>
+            <h4 class="title resume__item-univer">English(Pre-Intermediate)</h4>
+            <div class="resume__item-diplom">Russian(Native speaker)</div>
+            <div class="resume__item-diplom">Polish(A1)</div>
+          </div>
+          <div class="resume__item">
+            <div class="title resume__item-title-exp">Code Example</div>
+  
+            <div>
+              <pre class="resume__code">
+                <code >
+                  const handleHover = (e, opacity) => {
+                    if (e.target.classList.contains('nav__link')) {
+                      const link = e.target;
+                      const siblings = link
+                        .closest('.header__nav')
+                        .querySelectorAll('.nav__link');
+                      siblings.forEach((el) => {
+                        if (el !== link) el.style.opacity = opacity;
+                      });
+                    }
+                  };
+  
+                </code>
+              </pre>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <script src="src/js/index.js"></script>
   </body>
 </html>
