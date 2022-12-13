@@ -1,0 +1,44 @@
+.about {
+  padding-top: 8rem;
+  padding-bottom: 3rem;
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+  &__wrapper {
+    display: grid;
+    grid-template-columns: 400px 670px;
+
+    row-gap: 4rem;
+    column-gap: 7rem;
+  }
+  &__photo {
+    grid-row: 1 / 3;
+
+    img {
+      width: 100%;
+      height: 80%;
+      object-fit: contain;
+    }
+  }
+  &__title {
+    position: relative;
+    @include fz20;
+    @include before-circle;
+  }
+  &__subtitle {
+    @include fz36;
+    color: $subtitle-color;
+  }
+
+  &__text {
+    font-family: "Poppins", sans-serif;
+    margin-top: 2rem;
+    @include fz16;
+    letter-spacing: 0.1rem;
+  }
+
+  &__divider {
+    border: 3px solid $main-color;
+    width: 10rem;
+    margin-top: 2.5rem;
+    background: $main-color;
+  }
+}
