@@ -1,1 +1,3 @@
-CV1: Markdown and Git - https://dzmitrydavid.github.io/rsschool-cv/cv
+CV: Markdown - https://dzmitrydavid.github.io/rsschool-cv/cv
+
+CV:HTML - https://dzmitrydavid.github.io/rsschool-cv/
