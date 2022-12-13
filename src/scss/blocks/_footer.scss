@@ -1,0 +1,26 @@
+.footer {
+  display: flex;
+  align-items:center;
+  width: 100%;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  &__nav {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 70%;
+    
+    a,span {
+      color:#423f3e;
+      font-size: 2rem;
+      font-weight: 900;
+
+      &:focus {
+        outline: none;
+        box-shadow: none;
+      } 
+    }
+  }
+  &__logo {
+    height: 100%;
+  }
+}
