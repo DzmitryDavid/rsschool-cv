@@ -1,0 +1,46 @@
+.promo {
+  height: 80rem;
+  padding-top: 20.5rem;
+  background-image: url("../../src/img/works/main-bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  &__title {
+      // width: 53.5rem;
+      
+      margin-top: 1rem;
+      color: #423f3e;
+      @include fz36;
+
+  }
+  &__subtitle {
+      z-index: 1;
+      position: relative;
+      margin-top: 12rem;
+      @include before-circle;  
+      @include fz48;
+      &::before {
+          left: -10px;
+          color: $subtitle-color;
+      }
+  }
+  &__btns {
+      margin-top: 10rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      max-width: 40rem;
+  }
+
+  &__link {
+      @include fz36;
+      color: #fff;
+      transition: all 0.7s;
+  
+      &:hover {
+          text-decoration: none;
+          color: $font-color;
+          box-shadow: 0 5px 0 $font-color;
+      }
+  }
+}
